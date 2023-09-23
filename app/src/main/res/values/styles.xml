@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- region typhography -->
+
+    <!-- region font headline -->
+
+    <!-- region headline 1 -->
+
+    <style name="BaseTextView" parent="android:TextAppearance">
+        <item name="android:textColor">@color/neutral_90</item>
+    </style>
+
+    <style name="Headline1SemiBold600Black40" parent="BaseTextView">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Headline1Regular400Black40" parent="BaseTextView">
+        <item name="android:textSize">40sp</item>
+        
+    </style>
+
+    <!-- endregion headline 1 -->
+
+    <!-- region headline 2 -->
+
+    <style name="Headline2SemiBold600Black32" parent="BaseTextView">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Headline2Regular400Black32" parent="BaseTextView">
+        <item name="android:textSize">32sp</item>
+        
+    </style>
+
+    <!-- endregion headline 2 -->
+
+    <!-- region headline 3 -->
+
+    <style name="Headline3SemiBold600Black28" parent="BaseTextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Headline3Regular400Black28" parent="BaseTextView">
+        <item name="android:textSize">28sp</item>
+        
+    </style>
+
+    <!-- endregion headline 3 -->
+
+    <!-- region headline 4 -->
+
+    <style name="Headline4SemiBold600Black24" parent="BaseTextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Headline4Regular400Black24" parent="BaseTextView">
+        <item name="android:textSize">24sp</item>
+        
+    </style>
+
+    <!-- endregion headline 4 -->
+
+    <!-- region headline 5 -->
+
+    <style name="Headline5SemiBold600Black20" parent="BaseTextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Headline5Regular400Black20" parent="BaseTextView">
+        <item name="android:textSize">20sp</item>
+        
+    </style>
+
+    <!-- endregion headline 5 -->
+
+    <!-- endregion font headline -->
+
+    <!-- region font body -->
+
+    <!-- region body large -->
+
+    <style name="BodyLargeSemiBold600Black16" parent="BaseTextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BodyLargeRegular400Black16" parent="BaseTextView">
+        <item name="android:textSize">16sp</item>
+        
+    </style>
+
+    <!-- endregion body large -->
+
+    <!-- region body medium -->
+
+    <style name="BodyMediumSemiBold600Black14" parent="BaseTextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BodyMediumRegular400Black14" parent="BaseTextView">
+        <item name="android:textSize">14sp</item>
+        
+    </style>
+
+    <!-- endregion body medium -->
+
+    <!-- region body small -->
+
+    <style name="BodySmallSemiBold600Black12" parent="BaseTextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BodySmallRegular400Black12" parent="BaseTextView">
+        <item name="android:textSize">12sp</item>
+        
+    </style>
+
+    <!-- endregion body small -->
+
+    <!-- endregion font body -->
+
+    <!-- region caption/label -->
+
+    <style name="CaptionLabelSemiBold600Black10" parent="BaseTextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CaptionLabelRegular400Black10" parent="BaseTextView">
+        <item name="android:textSize">10sp</item>
+        
+    </style>
+
+    <!-- endregion caption/label -->
+
+    <!-- endregion typhography -->
+
+    <!-- region component -->
+
+    <!-- region button specification -->
+
+    <!-- region material -->
+
+    <style name="BaseButtonLargeMaterial" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">62dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BaseOutlineButtonLargeMaterial" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">62dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BaseButtonMediumMaterial" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BaseButtonSmallMaterial" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- endregion material -->
+
+    <!-- endregion button specification -->
+
+    <!-- region button implementation -->
+
+    <!-- region material button -->
+
+    <!-- region large material -->
+
+    <style name="ButtonPrimaryLargeMaterial" parent="BaseButtonLargeMaterial">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/emerald_default</item>
+        <item name="rippleColor">@color/emerald_default</item>
+    </style>
+
+    <style name="ButtonOutlineLargeMaterial" parent="BaseOutlineButtonLargeMaterial">
+        <item name="android:textColor">@color/emerald_default</item>
+        <item name="strokeColor">@color/emerald_default</item>
+    </style>
+
+    <!-- endregion large Material -->
+
+    <!-- endregion material button -->
+
+    <!-- endregion button implementation -->
+
+    <!-- region Edit Text -->
+
+    <style name="EditTextBaseDefault" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/neutral_90</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/neutral_40</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@color/neutral_90</item>
+    </style>
+
+    <!-- endregion Edit Text -->
+
+
+    <!-- endregion component -->
+
+</resources>

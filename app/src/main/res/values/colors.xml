@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- region Dark Silver Color -->
+    <color name="neutral_10">#FFFFFF</color>
+    <color name="neutral_20">#ECECEC</color>
+    <color name="neutral_30">#C5C5C5</color>
+    <color name="neutral_40">#898989</color>
+    <color name="neutral_50">#727272</color>
+    <color name="neutral_60">#3D3D38</color>
+    <color name="neutral_80">#32322E</color>
+    <color name="neutral_90">#242421</color>
+    <!-- endregion -->
+
+    <!-- region Emerald Color -->
+    <color name="emerald_default">#4AA134</color>
+    <color name="emerald_dark">#12833F</color>
+    <color name="emerald_light">#40DD7F</color>
+    <color name="emerald_bg">#ACFFCD</color>
+    <!-- endregion  -->
 </resources>
