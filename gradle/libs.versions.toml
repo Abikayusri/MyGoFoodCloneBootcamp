@@ -122,4 +122,4 @@ room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 view-components = ["app-compat", "fragment", "activity", "material", "coroutines-core", "androidx-ktx", "timber", "constraint"]
 rooms = ["room", "room-runtime"]
 coroutines = ["coroutines-core", "coroutines-android"]
-retrofit = ["retrofit", "retrofit-converter"]
+retrofit = ["retrofit", "retrofit-converter", "okhttp", "logging-interceptor"]

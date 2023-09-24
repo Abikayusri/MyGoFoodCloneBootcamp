@@ -41,6 +41,7 @@ android {
 
     buildFeatures {
         buildConfig = true
+        viewBinding = true
     }
 
     fun Packaging.() {
@@ -77,4 +78,5 @@ dependencies {
     kapt(libs.room.compiler)
 
     implementation(libs.bundles.retrofit)
+    implementation(libs.chucker)
 }

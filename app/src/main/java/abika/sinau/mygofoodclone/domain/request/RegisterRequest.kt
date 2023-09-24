@@ -1,4 +1,4 @@
-package abika.sinau.mygofoodclone.features.registration.register.domain.request
+package abika.sinau.mygofoodclone.domain.request
 
 data class RegisterRequest(
     val name: String,
