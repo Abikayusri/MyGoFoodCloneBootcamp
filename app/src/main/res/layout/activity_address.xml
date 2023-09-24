@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".features.registration.address.presentation.AddressActivity">
+    tools:context=".features.registration.address.ui.AddressActivity">
 
     <TextView
         android:id="@+id/textView"

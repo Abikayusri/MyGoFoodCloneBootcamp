@@ -1,4 +1,6 @@
-package abika.sinau.mygofoodclone.features.registration.register.domain.request
+package abika.sinau.mygofoodclone.domain.request
+
+import android.os.Parcelable
 
 data class RegisterRequest(
     val name: String,

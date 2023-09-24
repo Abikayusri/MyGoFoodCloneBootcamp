@@ -1,15 +1,15 @@
-package abika.sinau.mygofoodclone.util.wrapper
+package abika.sinau.mygofoodclone.domain
+
 
 import com.squareup.moshi.Json
 
-
-data class ResponseWrapper<T>(
+data class BaseResponseWrapper<T : Any>(
     @Json(name = "data")
     val data: T? = null,
     @Json(name = "meta")
-    val meta: Meta? = null
+    val meta: MetaResponse? = null
 ) {
-    data class Meta(
+    data class MetaResponse(
         @Json(name = "code")
         val code: Int? = null,
         @Json(name = "message")

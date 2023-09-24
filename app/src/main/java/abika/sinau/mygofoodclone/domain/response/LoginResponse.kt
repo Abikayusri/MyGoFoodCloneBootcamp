@@ -1,9 +1,9 @@
-package abika.sinau.mygofoodclone.features.registration.register.domain.response
+package abika.sinau.mygofoodclone.domain.response
 
 
 import com.squareup.moshi.Json
 
-data class RegisterResponse(
+data class LoginResponse(
     @Json(name = "access_token")
     val accessToken: String? = null,
     @Json(name = "token_type")
@@ -19,11 +19,11 @@ data class RegisterResponse(
         @Json(name = "created_at")
         val createdAt: Long? = null,
         @Json(name = "current_team_id")
-        val currentTeamId: String? = null,
+        val currentTeamId: Any? = null,
         @Json(name = "email")
         val email: String? = null,
         @Json(name = "email_verified_at")
-        val emailVerifiedAt: String? = null,
+        val emailVerifiedAt: Any? = null,
         @Json(name = "houseNumber")
         val houseNumber: String? = null,
         @Json(name = "id")
@@ -33,7 +33,7 @@ data class RegisterResponse(
         @Json(name = "phoneNumber")
         val phoneNumber: String? = null,
         @Json(name = "profile_photo_path")
-        val profilePhotoPath: String? = null,
+        val profilePhotoPath: Any? = null,
         @Json(name = "profile_photo_url")
         val profilePhotoUrl: String? = null,
         @Json(name = "roles")

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".features.registration.register.presentation.RegisterActivity">
+    tools:context=".features.registration.register.ui.RegisterActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -62,7 +62,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Huruf alfabet, tanpa emoji/simbol"
+        android:hint="Huruf alfabet, tanpa emoji/simbol"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -87,7 +87,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Cth: nama@email.com"
+        android:hint="Cth: nama@email.com"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -111,7 +111,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:inputType="textPassword"
-        android:text="Berupa huruf/angka"
+        android:hint="Berupa huruf/angka"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
