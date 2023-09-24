@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MyGoFoodClone"
-include ':app'
+include(":app")
